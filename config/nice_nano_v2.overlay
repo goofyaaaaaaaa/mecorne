@@ -19,4 +19,4 @@
     chosen {
         zmk,backlight = &backlight;
     };
-}:
+};
