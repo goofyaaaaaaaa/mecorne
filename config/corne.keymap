@@ -25,7 +25,8 @@
 #                &kp LSHFT &kp RALT &mo 1   &kp SPACE &mo 2 &kp PSCRN
 #                        >;
 #                };
-#/ {
+
+/ {
 
         keymap {
                 compatible = "zmk,keymap";
