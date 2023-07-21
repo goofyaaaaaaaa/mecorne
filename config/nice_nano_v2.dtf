@@ -15,8 +15,8 @@
 #    };
 # };
 
-/ {
-    chosen {
-        zmk,backlight = &backlight;
-    };
-};
+#/ {
+#    chosen {
+#        zmk,backlight = &backlight;
+#    };
+#};
