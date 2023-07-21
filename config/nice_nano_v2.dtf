@@ -1,8 +1,8 @@
-&pwm0 {
-    status = "okay";
-    ch0-pin = <45>;
-    /* ch0-inverted; */
-};
+# &pwm0 {
+#    status = "okay";
+#    ch0-pin = <45>;
+#    /* ch0-inverted; */
+# };
 
 # / {
 #    backlight: pwmleds {
