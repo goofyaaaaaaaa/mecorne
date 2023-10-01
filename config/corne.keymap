@@ -57,7 +57,7 @@
 };
 
 
-#ifdef OLED_ENABLE
+#ifdef CONFIG_ZMK_DISPLAY
 
 // Rotate OLED
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
