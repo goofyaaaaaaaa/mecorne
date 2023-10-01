@@ -10,6 +10,10 @@
 
 #ifdef OLED_ENABLE
 
+// Rotate OLED
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_90; 
+
 //Draw to Oled
         // define image array
         static const char image [] PROGMEM = {
