@@ -63,7 +63,7 @@
 // Rotate OLED
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
     return OLED_ROTATION_90; 
-
+}
 void render_bootmagic_status(bool status) {
     /* Show Ctrl-Gui Swap options */
     static const char PROGMEM logo[][2][3] = {
